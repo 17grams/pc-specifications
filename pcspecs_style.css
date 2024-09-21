@@ -35,21 +35,6 @@ body {
   margin-right: 10px;
 }
 
-.menu-toggle {
-  font-size: 2rem;
-  color: #fff;
-  cursor: pointer;
-  transition: transform 0.3s ease, font-size 0.3s ease;
-}
-
-.menu-toggle:hover {
-  transform: scale(1.1); /* ホバー時に少し大きくなる */
-}
-
-.menu-toggle:hover .bar {
-  width: 30px; /* ホバー時にバーの幅を調整 */
-}
-
 .bar {
   display: block;
   width: 20px;
@@ -59,37 +44,21 @@ body {
   transition: width 0.3s ease;
 }
 
-.dropdown-menu {
-  display: none;
-  flex-direction: column;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  border: 2px solid #fff;
-  padding: 10px;
-  position: absolute;
-  top: 50px;
+.other-website {
   right: 20px;
-  z-index: 100;
+  text-align: center;
 }
 
-.dropdown-menu:hover {
-  display: grid;
-}
-
-.menu-toggle:hover + .dropdown-menu {
-  display: grid;
-}
-
-.dropdown-menu a {
-  color: #fff;
+.other-website a {
   text-decoration: none;
-  padding: 10px;
-  transition: background 0.3s;
+  color: inherit;
 }
 
-.dropdown-menu a:hover {
-  background: rgba(255, 105, 248, 0.8);
+.other-website p {
+  color: pink;
 }
+
+
 
 
 .container {
