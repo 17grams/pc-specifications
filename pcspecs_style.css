@@ -44,6 +44,12 @@ body {
   transition: width 0.3s ease;
 }
 
+.title{
+  flex-grow: 1;
+  text-align: center;
+  color:#b3ff00;
+}
+
 .other-website {
   right: 20px;
   text-align: center;
@@ -65,7 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 100px;
   width: 100%;
   z-index: 10;
   box-sizing: border-box;
